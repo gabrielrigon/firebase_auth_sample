@@ -1,0 +1,19 @@
+import * as firebase from 'firebase';
+import Login from './screens/Login';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// insira seu firebase config aqui
+const config = {
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
+};
+// fim firebase config aqui
+
+firebase.initializeApp(config);
+
+ReactDOM.render(<Login />, document.getElementById('root'));
