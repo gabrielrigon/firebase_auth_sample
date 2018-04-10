@@ -13,13 +13,14 @@ O objetivo deste material é exemplificar a integração do Firebase Authenticat
 ### Uso
 
 * Clone o projeto
-* Acesse o diretório e instale as dependências com o comando abaixo (para isso você precisa ter instalado o `NodeJs v8.9.4 e NPM v5.6.0`)
+* Acesse o diretório e instale as dependências com o comando abaixo (para isso você precisa ter instalado o `NodeJs v8.9.4 e Yarn v1.5.1`)
 ```sh
-  $ npm install
+  $ yarn
 ```
 * Renomeie o arquivo ``index.js.example`` (que está dentro da pasta src) para ``index.js``
 * Dentro deste arquivo, insira os parametros de configuração fornecidos ao criar o projeto no Firebase
+* No console do Firebase, vá até `Authentication` > `Métodos de Login` e habilite esta opção
 * Volte ao terminal e execute o comando
 ```sh
-  $ npm start
+  $ yarn start
 ```
