@@ -1,26 +1,27 @@
-# Exemplo de integração Firebase Authentication
+# Firebase Authentication Integration
 
-### Conteúdo
+### Content
+The purpose of this material is to exemplify the integration of Firebase Authentication into a web project. It will be possible to create a user (with confirmation by email), log in, log out, update the user and recover the password while following each update of the object in real time.
 
-O objetivo deste material é exemplificar a integração do Firebase Authentication em um projeto web node. Nele será possível criar um usuário (c/ confirmação por e-mail), logar, deslogar, atualizar o usuário e recuperar a senha enquanto acompanha cada atualização do objeto em tempo real.
+### Libs
+- Firebase
+- React
+- UI material
 
-### Dependências
+### Dependencies
+- Node.js
+- Yarn
 
-* Firebase
-* React
-* Material UI
-
-### Uso
-
-* Clone o projeto
-* Acesse o diretório e instale as dependências com o comando abaixo (para isso você precisa ter instalado o `NodeJs v8.9.4 e Yarn v1.5.1`)
+### Use
+- Clone the project
+- Access the directory and install the dependencies with the command below
 ```sh
   $ yarn
 ```
-* Renomeie o arquivo ``index.js.example`` (que está dentro da pasta src) para ``index.js``
-* Dentro deste arquivo, insira os parametros de configuração fornecidos ao criar o projeto no Firebase
-* No console do Firebase, vá até `Authentication` > `Métodos de Login` e habilite esta opção
-* Volte ao terminal e execute o comando
+- Rename the `index.js.example` file (which is inside the src folder) to `index.js`
+- Within this file, enter the configuration parameters provided when creating the project in Firebase
+- In the Firebase console, go to `Authentication` > `Login Methods` and enable this option
+- Go back to the terminal and run the command:
 ```sh
   $ yarn start
 ```
